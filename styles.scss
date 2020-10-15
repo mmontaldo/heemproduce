@@ -73,19 +73,19 @@ body {
   text-align: center;
 }
 .title {
-  letter-spacing: 2.5px;
   color: #fff;
   font-size: 38px;
   margin-bottom: 20px;
   @include target(2) {
     font-size: 72px;
+    letter-spacing: 2.5px;
   }
 }
 .sub-title {
-  letter-spacing: 2.5px;
   color: #fff;
   font-size: 32px;
   @include target(2) {
     font-size: 48px;
+    letter-spacing: 2.5px;
   }
 }
